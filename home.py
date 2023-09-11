@@ -20,9 +20,9 @@ def get_info():
     utc_time = datetime.datetime.now().strftime("%Y-%m-%dT %H:%M:%SZ")
 
 
-    git_file = "https://github.com/Matre5/Task/blob/master/helloo.py"
+    git_file = "https://github.com/Matre5/Task2/blob/master/home.py"
 
-    git_repo = "https://github.com/Matre5/Task"
+    git_repo = "https://github.com/Matre5/Task2.git"
 
 
     status_code = 200
