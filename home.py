@@ -17,7 +17,7 @@ def get_info():
     current_day = datetime.datetime.now().strftime('%A')
 
     # Getting the UTC time
-    utc_time = datetime.datetime.now().strftime("%Y-%m-%dT %H:%M:%SZ")
+    utc_time = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
     git_file = "https://github.com/Matre5/Task2/blob/master/home.py"
