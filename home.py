@@ -30,10 +30,10 @@ def get_info():
     result = {
         'slack_name': slack_name,
         'track': track,
-        'Day': current_day,
-        'UTC': utc_time,
-        'git_file': git_file,
-        'git_repo': git_repo,
+        'current_day': current_day,
+        'utc_time': utc_time,
+        'github_file_url': git_file,
+        'github_repo_url': git_repo,
         'status_code': status_code
     }
 
